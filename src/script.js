@@ -52,17 +52,4 @@ iframe.onload = function() {
   var pipedriveDeal = {
     inputInfo: inputInfo,
   };
-  
-  // Отправка запроса к API Pipedrive для создания сделки
-  sendRequestToPipedriveAPI(pipedriveDeal);
-};
-
-// Функция для отправки запроса к API Pipedrive
-function sendRequestToPipedriveAPI(deal) {
-  // Ваш код для отправки запроса к API Pipedrive здесь
 }
-
-// Загрузка страницы со встроенным iframe
-window.onload = function() {
-  iframe.src = 'https://doc.clickup.com/36925455/p/h/136w0f-58802/2c5d002c981d8c4';
-};
